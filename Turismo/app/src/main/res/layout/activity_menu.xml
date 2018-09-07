@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/city"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+        <ImageButton
+            android:id="@+id/btn_back_main"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_back"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants">
+            <Button
+                android:id="@+id/btn_logout_menu"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_logout"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:typeface="serif"
+        android:layout_height="wrap_content"
+        android:text="@string/guanajuato"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RelativeLayout
+                    android:layout_width="138dp"
+                    android:layout_height="123dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="21dp"
+                    android:layout_row="0"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_tourism_menu"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_tourism"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/destination"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="138dp"
+                    android:layout_height="126dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="30dp"
+                    android:layout_row="0"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_pub_restaurant_menu"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_restaurant"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/gastronomy"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RelativeLayout
+                    android:layout_width="138dp"
+                    android:layout_height="123dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="21dp"
+                    android:layout_row="0"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_nightLife_menu"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_night_life"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/night_life"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="138dp"
+                    android:layout_height="126dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="30dp"
+                    android:layout_row="0"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_attraction_menu"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_cinema"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/cinema"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+        </GridLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|right"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_button_recomendation"
+            android:id="@+id/btn_recomendation"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:hint="@string/btn_recomendation"
+            android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>

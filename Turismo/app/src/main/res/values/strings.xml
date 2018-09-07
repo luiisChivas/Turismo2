@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Turismo Guanajuato</string>
+    <string name="user">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="login_enter">Ingresar</string>
+    <string name="new_account">Crear cuenta</string>
+    <string name="name_user">Nombre de usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="register_user">Registrar</string>
+    <string name="back">Regresar</string>
+
+
+    <!-- STRINGS OF THE PLACE TOURISM-->
+    <string name="name_place">Nombre del lugar</string>
+    <string name="description_place">Descripción</string>
+    <string name="name_list_tourism">LUGARES TURÍSTICOS</string>
+    <string name="name_photo"></string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+
+    <!-- NAME BUTTON GENERAL-->
+    <string name="btn_save">GUARDAR</string>
+    <string name="btn_update">ACTUALIZAR</string>
+    <string name="btn_delete">ELIMINAR</string>
+    <string name="btn_select_photo">SUBIR FOTO</string>
+    <string name="btn_go">></string>
+    <string name="btn_recomendation">Recomendaciones</string>
+
+    <!-- INFO OF THE SCREEN INFO_PLACE_TOURISM-->
+    <string name="name_place_info">Lugar turístico</string>
+    <string name="how_to_get">Como llegar</string>
+
+    <!-- STRINGS OF THE PUB AND RESTAURANT-->
+    <string name="name_pub_restaurant">Nombre del lugar</string>
+    <string name="description_pub_restaurant">Descripción</string>
+    <string name="name_list_pub_restaurant">Bares y restaurantes</string>
+    <string name="name_photo_pub_restaurant"></string>
+
+    <!-- INFO OF THE SCREEN INFO_ATTRACTION-->
+    <string name="name_attraction_info">Atracción turística</string>
+
+    <!-- INFO OF THE SCREEN INFO_NIGHT_LIFE-->
+    <string name="name_night_life_info">Discoteca</string>
+
+    <!-- INFO OF THE SCREEN INFO_PUB_RESTAURANT-->
+    <string name="name_pub_restaurant_info">Restaurante</string>
+
+    <string name="list_attractions">ATRACCIONES</string>
+    <string name="name">Nombre del lugar</string>
+    <string name="description">Descripción</string>
+    <string name="list_cities">CIUDADES DE GUANAJUATO</string>
+    <string name="list_night_life">DISCOTECAS</string>
+    <string name="list_pub_restaurant">RESTAURANTES</string>
+    <string name="list_recomendation">RECOMENDACIONES</string>
+    <string name="recomendation">Lugar recomendado por los turistas</string>
+    <string name="destination">Destinos</string>
+    <string name="gastronomy">Gastronomía</string>
+
+    <string name="guanajuato">GUANAJUATO</string>
+    <string name="cinema">Cines</string>
+    <string name="valoration">Valorar lugar</string>
+    <string name="main">MENU</string>
+    <string name="night_life">Discotecas</string>
+    <string name="guanajuato_splash">TURISMO GUANAJUATO</string>
+
+
+    <string name="about_app">Aplicación desarrollada por:</string>
+    <string name="developed">Mendiola Gutiérrez Juan Luis</string>
+    <string name="career">Técnico Superior Universitario en Sistemas Informáticos</string>
+    <string name="about">Acerca de</string>
+    <string name="credits">Créditos:</string>
+    <string name="utng">Universidad Tecnológica del Norte de Guanajuato</string>
+    <string name="version">Versión 1.0</string>
+
+    <string name="about_login">¡</string>
+</resources>
